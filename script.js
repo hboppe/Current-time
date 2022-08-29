@@ -1,11 +1,13 @@
 function load() {
     var now = new Date()
     var hour = now.getHours()
+    var hour = 14
+
     var text = window.document.getElementById('text')
     text.innerHTML = `It is ${hour}h`
     var pic = window.document.getElementById('pic')
     
-    var hour = 7
+    var hour = 14
 
     if (hour >= 0 && hour < 12) { // Morning
         pic.src='./images/morning.jpg'  
